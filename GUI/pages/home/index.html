@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../src/img/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <Link className="" to="/"> Minha Loja </Link>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar produtos..."/>
+            <button type="submit">Buscar</button>
+        </div>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../cadastro/index.html">Cadastro</a></li>
+                <li><a href="../login/index.html">Login</a></li>
+                <li><a href="../produtos/index.html">Produtos</a></li>
+                <li><a href="../carrinho/index.html" ><img alt="Carrinho" src="../../src/img/carrinho32px.png"/></a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Bem-vindo à nossa loja!</h1>
+            <p>Explore uma vasta gama de produtos incríveis e ofertas especiais.</p>
+            <button>Ver Produtos</button>
+        </section>
+
+
+        <section class="products">
+            <h2>Destaques</h2>
+        <div class="product-grid">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produto 1"/>
+            <h3>Produto </h3>
+            <p>Descrição</p>
+            <button> <Link className="btn-link" to="../finalizarCompra/index.html">Comprar Agora</Link> </button>
+            <button> <Link className="btn-link" to="../carrinho/index.html">Adicionar ao carrinho</Link> </button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produto 2"/>
+            <h3>Produto </h3>
+            <p>Descrição</p>
+            <button> <Link className="btn-link" to="../finalizarCompra/index.html">Comprar Agora</Link> </button>
+            <button> <Link className="btn-link" to="../carrinho/index.html">Adicionar ao carrinho</Link> </button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produto 3"/>
+            <h3>Produto </h3>
+            <p>Descrição</p>
+            <button> <Link className="btn-link" to="../finalizarCompra/index.html">Comprar Agora</Link> </button>
+            <button> <Link className="btn-link" to="../carrinho/index.html">Adicionar ao carrinho</Link> </button>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+<div class="footer-content">
+    <div class="footer-section about">
+        <h3>Sobre Nós</h3>
+        <p>Descrição da Loja.</p>
+    </div>
+    <div class="footer-section links">
+        <h3>Links Rápidos</h3>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/produto">Produtos</a></li>
+            <li><a href="/">Sobre Nós</a></li>
+            <li><a href="/">Contato</a></li>
+        </ul>
+    </div>
+    <div class="footer-section contact">
+        <h3>Contate-nos</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123, Cidade</p>
+        <p><i class="fas fa-phone"></i> +55 11 1234-5678</p>
+        <p><i class="fas fa-envelope"></i> email@loja.com</p>
+        <div class="socials">
+            
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    &copy; 2024 Minha Loja | Todos os direitos reservados.
+</div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

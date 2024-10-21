@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../src/img/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-box">
+            <h2>Cadastro</h2>
+            <form   class="form-grid">
+                 <div class="input-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="first-name" placeholder="Digite seu nome" required/>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required/>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required/>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirmar Senha</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required/>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required/>
+                </div>
+                <div class="input-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required/>
+                </div>
+                <div class="input-group">
+                    <label for="dob">Data de Nascimento</label>
+                    <input type="date" id="dob" name="dob" required/>
+                </div>
+                <div class="input-group">
+                    <label for="gender">Sexo</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="zipcode">CEP</label>
+                    <input type="text" id="cep"  placeholder="00000-000" required/>
+                </div>
+                <div class="input-group">
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" name="address" placeholder="Rua, Número, Complemento" required/>
+                </div>
+                <div class="input-group">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" name="city" placeholder="Digite sua cidade" required/>
+                </div>
+                <div class="input-group">
+                    <label for="state">Estado</label>
+                    <input id="state" name="state" placeholder="Digite sua Cidade" required/>
+                </div> 
+                <div class="input-group">   
+                    <label for="neighborhood">Bairro</label>
+                    <input type="text" id="neighborhood" placeholder="Digite seu Bairro"/>
+                </div>
+                <div class="input-group">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" placeholder="Complemento"/>
+                </div>
+                <div class="input-group">
+                    <label for="numero">Numero</label>
+                    <input type="text" id="numero" placeholder="0000"/>
+                </div>
+                <div class="full-width">
+                    <button type="submit" class="btn" id="btn">Cadastrar</button>
+                </div>
+               
+                <p class="login-link full-width">Já tem uma conta? <a href="../login/index.html">Entre</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
